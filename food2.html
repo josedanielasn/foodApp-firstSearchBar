@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="resetstyle.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="food2.css" />
+  <title>Food_search</title>
+</head>
+
+<body>
+  <header>
+    <span class="logo">Muncher</span>
+    <span class="sign">Create an Account</span>
+    |
+    <span class="sign">Sign in</span>
+  </header>
+  <div class="main_body">
+    <div class="search_field">
+      <form class="search_">
+        <input class="search" type="text" placeholder="Search.." />
+        <button class="search_button">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </form>
+      <div class="filters">
+        <input class="location" type="number" placeholder="Distance (km)" />
+        <input class="budget" type="number" placeholder="Budget (&#8369;)" />
+        <input class="cuisine" type="text" placeholder="Cuisine" />
+      </div>
+    </div>
+    <div>
+      <ul class="list"></ul>
+    </div>
+  </div>
+  <script src="food2.js"></script>
+</body>
+
+</html>
